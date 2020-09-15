@@ -8,8 +8,8 @@ resource "okta_idp_social" "exam" {
     "email",
   ]
 
-  client_id         = "113651654757-par6mh41lsnm3t0tv0rgcoku27f4ots9.apps.googleusercontent.com"
-  client_secret     = "GQio2PX4RnYzeIOuTTWai4bG"
+  client_id         = "113651654757-efo1qome9c1gc66hsb35u37c7fr59n5h.apps.googleusercontent.com"
+  client_secret     = "h2fyOfCMgI95zRHGoIzwmKP5"
   username_template = "idpuser.email"
   subject_match_type        = "CUSTOM_ATTRIBUTE"
   subject_match_attribute   = "customfieldId"

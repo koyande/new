@@ -12,7 +12,7 @@ pipeline{
         }
         stage('Terraform Apply'){
             steps{
-                sh label: '', script: 'terraform apply -input=false'
+                sh label: '', script: 'terraform apply -input=true'
             }
         }
     }
